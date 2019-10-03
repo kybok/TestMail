@@ -1,0 +1,16 @@
+C:\Users\Loner\Documents\Visual Studio 2017\Projects\TestMail\TestMail\bin\Debug\TestMail.exe.config
+C:\Users\Loner\Documents\Visual Studio 2017\Projects\TestMail\TestMail\bin\Debug\TestMail.exe
+C:\Users\Loner\Documents\Visual Studio 2017\Projects\TestMail\TestMail\bin\Debug\TestMail.pdb
+C:\Users\Loner\Documents\Visual Studio 2017\Projects\TestMail\TestMail\bin\Debug\WebDriver.dll
+C:\Users\Loner\Documents\Visual Studio 2017\Projects\TestMail\TestMail\bin\Debug\WebDriver.Support.dll
+C:\Users\Loner\Documents\Visual Studio 2017\Projects\TestMail\TestMail\bin\Debug\WebDriver.xml
+C:\Users\Loner\Documents\Visual Studio 2017\Projects\TestMail\TestMail\bin\Debug\WebDriver.Support.xml
+C:\Users\Loner\Documents\Visual Studio 2017\Projects\TestMail\TestMail\obj\Debug\TestMail.csprojAssemblyReference.cache
+C:\Users\Loner\Documents\Visual Studio 2017\Projects\TestMail\TestMail\obj\Debug\TestMail.Form1.resources
+C:\Users\Loner\Documents\Visual Studio 2017\Projects\TestMail\TestMail\obj\Debug\TestMail.Properties.Resources.resources
+C:\Users\Loner\Documents\Visual Studio 2017\Projects\TestMail\TestMail\obj\Debug\TestMail.csproj.GenerateResource.cache
+C:\Users\Loner\Documents\Visual Studio 2017\Projects\TestMail\TestMail\obj\Debug\TestMail.csproj.CoreCompileInputs.cache
+C:\Users\Loner\Documents\Visual Studio 2017\Projects\TestMail\TestMail\obj\Debug\TestMail.csproj.CopyComplete
+C:\Users\Loner\Documents\Visual Studio 2017\Projects\TestMail\TestMail\obj\Debug\TestMail.exe
+C:\Users\Loner\Documents\Visual Studio 2017\Projects\TestMail\TestMail\obj\Debug\TestMail.pdb
+C:\Users\Loner\Documents\Visual Studio 2017\Projects\TestMail\TestMail\bin\Debug\SeleniumExtras.PageObjects.dll
