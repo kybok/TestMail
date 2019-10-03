@@ -20,6 +20,7 @@ namespace TestMail
     {
         #region Переменные
         private IWebDriver browser;
+        private bool jsLoaded;
         #endregion
 
         public Form1()
@@ -44,13 +45,14 @@ namespace TestMail
             MailPage mailPage = new MailPage();
             PageFactory.InitElements(browser,mailPage);
 
-            try
+            IJavaScriptExecutor js = (IJavaScriptExecutor) browser;
+
+            while (!jsLoaded)
             {
-                browser.FindElement(By.CssSelector("div[class='scrollable__container']"));
-                mailPage.WriteMailButton.Click();
+                jsLoaded = (bool)js.ExecuteScript("return (document.readyState == \"complete\" || document.readyState == \"interactive\")"); //Проверяем загружен ли JS полностью
             }
-            catch{ browser.FindElement(By.CssSelector("div[class='scrollable__container']")).SendKeys("N");}
-            
+
+            mailPage.WriteMailButton.Click();
             mailPage.WhomContainer.SendKeys("ivanovivantesting@mail.ru" + "\n");
             mailPage.BodyContainer.SendKeys("Привет!");
             mailPage.SendMailButton.Click();
